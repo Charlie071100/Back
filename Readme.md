@@ -6,31 +6,26 @@ Este proyecto es un currículum interactivo que creé a partir de una plantilla 
 
 ## 1. Objetivo de la práctica
 
-El objetivo principal fue aprender cómo se construye y se organiza una página web moderna desde cero. La idea era entender la separación de archivos (no mezclar el diseño con el texto), aplicar estilos responsivos con Flexbox y Grid para que el sitio se adapte bien a celulares, y agregar una sección propia con nuestros pasatiempos para personalizar el diseño.
+El objetivo principal fue aprender cómo se construye y se organiza una página web moderna desde cero. La idea era entender la separación de archivos (no mezclar el diseño con el texto), agregar una sección propia con nuestros pasatiempos para personalizar el diseño.
 
 ---
 
 ## 2. Puntos más complicados al desarrollar el proyecto
 
-**Hacer que todo se viera bien en celulares:** Ajustar las tarjetas de experiencia y las estadísticas para que se acomodaran solas en pantallas chicas sin que se amontonara el texto o se saliera de los márgenes fue lo que requirió más cuidado.
-**Conectar la sección de intereses:** El reto fue crear el archivo nuevo para mis pasatiempos, enlazarlo correctamente en la barra de navegación y lograr que compartiera exactamente los mismos colores y transiciones del diseño principal.
-
----
+## Uno de los puntos mas complicados fue el agregar el apartado de pasatiempos e intereses en otra pagina para que fuera parte del scroll de la pagina principal.
 
 ## 3. Aprendizajes obtenidos
 
-**Uso de variables en CSS:** Me pareció muy útil aprender a guardar los colores en variables. Gracias a eso, hacer el cambio a modo oscuro fue mucho más fácil porque no tuve que reescribir el diseño de cada tarjeta o texto por separado.
-**Estructura semántica:** Aprendí que usar etiquetas correctas como header, nav o main ayuda mucho a mantener el código limpio, ordenado y fácil de leer para cualquiera.
+Aprendi a utilizar las etiquetas como headers, paragraphs, etc y a reciclar codigo para poder mantener el formato y a su vez poder hacer referencias de una pestaña a otra en menus de acción.
 
 ---
 
 ## 4. Problemas o dificultades encontradas
 
-**Texto que se desbordaba:** Al principio, en pantallas muy pequeñas, algunos datos de la tarjeta de contacto se salían de su contenedor. Lo solucioné agregando propiedades en el CSS para obligar al texto a romper la línea y respetara los bordes.
-**El cambio del modo oscuro era muy brusco:** Al dar clic al botón, el cambio de color de la pantalla pasaba de golpe y se sentía algo molesto. Lo arreglé usando una propiedad de transición en el cuerpo del CSS para que los colores cambiaran de forma suave.
+Al no ser muy bueno para la programacion se me complicó un poco el hacer una pagina nueva para el apartado solicitado y que en el menú de acción se pudiera acceder a todos los apartados aun que no se estuviera en esa pagina
 
 ---
 
 ## 5. Conclusiones personales
 
-Esta práctica me sirvió bastante para ver cómo funciona el desarrollo web en el mundo real, donde cada archivo tiene una función clara (estructura, diseño e interacción). Me gustó el resultado final porque pasa de ser el típico currículum aburrido en PDF a una página web interactiva y moderna que realmente se adapta a cualquier dispositivo.
+Esta práctica me sirvió bastante para ver cómo funciona el desarrollo web en el mundo real, donde cada archivo tiene una función clara (estructura, diseño e interacción). Me gustó el resultado final porque pasa de ser el típico currículum aburrido en PDF a una página web interactiva y moderna.
