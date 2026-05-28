@@ -12,7 +12,7 @@ El objetivo principal fue aprender cómo se construye y se organiza una página 
 
 ## 2. Puntos más complicados al desarrollar el proyecto
 
-## Uno de los puntos mas complicados fue el agregar el apartado de pasatiempos e intereses en otra pagina para que fuera parte del scroll de la pagina principal.
+Uno de los puntos mas complicados fue el agregar el apartado de pasatiempos e intereses en otra pagina para que fuera parte del scroll de la pagina principal.
 
 ## 3. Aprendizajes obtenidos
 
