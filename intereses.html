@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasatiempos e Intereses | Carlos Arturo Orozco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Compartimos el mismo archivo de estilos -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="theme-toggle" id="themeToggle">
+      <i class="fa-solid fa-moon"></i> <span>Modo oscuro</span>
+    </button>
+    <div class="page">
+      <nav class="nav">
+        <div class="nav-content">
+          <a class="logo" href="index.html#inicio">CV Digital</a>
+          <div class="nav-links">
+            <a href="index.html#perfil">Perfil</a>
+            <a href="index.html#experiencia">Experiencia</a>
+            <a href="index.html#educacion">Educación</a>
+            <a href="index.html#habilidades">Habilidades</a>
+            <a href="index.html#certificaciones">Certificaciones</a>
+            <a href="#pasatiempos-intereses">Pasatiempos e Intereses</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="section" id="pasatiempos-intereses">
+          <div class="section-title">
+            <i class="fa-solid fa-gamepad"></i>
+            <h2>Pasatiempos e Intereses</h2>
+          </div>
+          <div class="grid-2">
+            <div class="card">
+              <span class="date">Pasatiempos</span>
+              <h4>Pasatiempos Principales</h4>
+              <p>
+                Mis mayores pasatiempos son ver series de distintos generos
+                escuchar musica de preferencia electronica y hacer ejercicio
+              </p>
+              <h4>Pasatiempos Secundarios</h4>
+              <p>
+                Otros de mis pasatiempos es ir a partidos de distintos deportes
+                y aprender nuevos deportes para poder mantenerme en forma.
+              </p>
+            </div>
+            <div class="card">
+              <span class="date">Intereses</span>
+              <p>
+                Sigo de cerca el básquetbol y disfruto el ambiente de los
+                partidos de la liga profesional. Me motiva la estrategia
+                deportiva, el trabajo en equipo y la energía de la afición en
+                Aguascalientes, a su vez me gusta aprender idiomas para no
+                quedarme estancado unicamente en ser biligue.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <h2>Carlos Arturo Orozco Huitrón</h2>
+        <p>CV digital desarrollado con HTML, CSS y JavaScript básico.</p>
+      </footer>
+    </div>
+
+    <script>
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
+      themeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+        const isDark = body.classList.contains("dark-mode");
+        themeToggle.innerHTML = isDark
+          ? '<i class="fa-solid fa-sun"></i><span>Modo claro</span>'
+          : '<i class="fa-solid fa-moon"></i><span>Modo oscuro</span>';
+      });
+    </script>
+  </body>
+</html>
